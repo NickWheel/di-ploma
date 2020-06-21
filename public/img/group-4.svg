@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <circle cx="24.9" cy="25.42" r="24.9" stroke="#0F1C76" stroke-width="2"/>
+        <path fill="#D1E6FF" stroke="#0F1C76" stroke-linejoin="round" stroke-width="2" d="M10.233 5.26c4.278 2.89 9.42 4.575 14.949 4.575 5.382 0 10.397-1.596 14.606-4.346C34.958 2.214 30.096.558 25.2.52c-4.896-.038-9.885 1.543-14.967 4.74zM10.233 45.815c4.278-2.89 9.42-4.575 14.949-4.575 5.382 0 10.397 1.596 14.606 4.347-4.83 3.274-9.692 4.93-14.588 4.968-4.896.038-9.885-1.543-14.967-4.74z"/>
+        <circle cx="24.9" cy="25.42" r="24.9" stroke="#0F1C76" stroke-width="2"/>
+        <path stroke="#0F1C76" stroke-linejoin="round" stroke-width="2" d="M25.23.52C15.35 4.577 8.4 14.204 8.4 25.434c0 11.205 6.918 20.814 16.765 24.886M25.2 50.32c9.882-4.057 16.83-13.683 16.83-24.913 0-11.205-6.918-20.815-16.765-24.887"/>
+        <path stroke="#0F1C76" stroke-linejoin="round" stroke-width="2" d="M10.233 45.785c4.278-2.89 9.42-4.575 14.949-4.575 5.382 0 10.397 1.597 14.606 4.347"/>
+        <path stroke="#0F1C76" stroke-width="2" d="M25.2 50.32L25.2.52M0 25.72L43.8 25.72"/>
+        <path fill="#FFF" d="M18.6 17.92H44.400000000000006V31.720000000000002H18.6z"/>
+        <text fill="#0F1C76" font-family="Manrope-ExtraBold, Manrope" font-size="14.4" font-weight="600" letter-spacing="-.36">
+            <tspan x="20.453" y="29.92">web</tspan>
+        </text>
+    </g>
+</svg>

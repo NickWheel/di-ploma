@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Кафедра Комп'ютерних Наук та Інформаційних Систем</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a class="rina-logo" href="https://knute.edu.ua/blog/read?n=informaciynikh%20tekhnologiy%20u%20mizhnarodniy%20torgivli&uk">
+          KNUTE
+        </a>
+
+
+        <nav>
+          <button class="dropdown-block">
+            <div class="dropdown-trigger">
+              <p>Спеціальності</p>
+              <img src="img/arrow.svg" alt="arrow" />
+            </div>
+            <div class="dropdown">
+              <a href="#specializations" class="dropdown-elem">
+                <img src="img/micro-gear.svg" alt="API" />
+                <div class="dropdown-headers">
+                  <p>Комп'ютерні Науки</p>
+                </div>
+              </a>
+              <a href="#specializations" class="dropdown-elem">
+                <img src="img/chromium.svg" alt="Search" />
+                <div class="dropdown-headers">
+                  <p>Інформаційні Системи</p>
+                  <p>І технології</p>
+                </div>
+              </a>
+            </div>
+          </button>
+          <a href="#video">Відео</a>
+          <button class="dropdown-block">
+            <div class="dropdown-trigger" onclick="">
+              <p>Дослідження</p>
+              <img src="img/arrow.svg" alt="arrow" />
+            </div>
+            <div class="dropdown">
+              <a href="#researches" class="dropdown-elem">
+                <img src="img/micro-gear.svg" alt="API" />
+                <div class="dropdown-headers">
+                  <p>Голографічні 3D Вітрини</p>
+                  <p>Розробка</p>
+                </div>
+              </a>
+              <a href="#researches" class="dropdown-elem">
+                <img src="img/chromium.svg" alt="Search" />
+                <div class="dropdown-headers">
+                  <p>Моделювання E-Commerce</p>
+                  <p>Дослідження</p>
+                </div>
+              </a>
+            </div>
+          </button>
+          <a href="#questions">Питання</a>
+          <a href="#contact-us">Контакти</a>
+          <a href="https://knute.edu.ua/blog/read?n=informaciynikh%20tekhnologiy%20u%20mizhnarodniy%20torgivli&uk" class="free-trial">Дізнатись Більше</a>
+        </nav>
+
+
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+      
+          <ul class="menu__box">
+            <div class="tab dropdown-block-burger">
+              <input type="checkbox" id="dropdown-products" />
+              <label class="tab-label dropdown-trigger-burger" for="dropdown-products">
+                <p>Спеціальності</p>
+                <img src="img/arrow.svg" alt="arrow" />
+              </label>
+
+              <div class="tab-content dropdown-burger">
+                <a href="#specializations" class="dropdown-elem-burger">
+                  <img src="img/micro-gear.svg" alt="API" />
+                  <div class="dropdown-headers-burger">
+                    <p>Комп'ютерні Науки</p>
+                  </div>
+                </a>
+                <a href="#specializations" class="dropdown-elem-burger">
+                  <img src="img/chromium.svg" alt="Search" />
+                  <div class="dropdown-headers-burger">
+                    <p>Інформаційні Системи</p>
+                    <p>І технології</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <a href="#video">Відео</a>
+            <div class="tab dropdown-block-burger">
+              <input type="checkbox" id="dropdown-resourses" />
+              <label class="tab-label dropdown-trigger-burger" for="dropdown-resourses">
+                <p>Дослідження</p>
+                <img src="img/arrow.svg" alt="arrow" />
+              </label>
+
+              <div class="tab-content dropdown-burger">
+                <a href="#researches" class="dropdown-elem-burger">
+                  <img src="img/micro-gear.svg" alt="API" />
+                  <div class="dropdown-headers-burger">
+                    <p>Голографічні 3D Вітрини</p>
+                    <p>Розробка</p>
+                  </div>
+                </a>
+                <a href="#researches" class="dropdown-elem-burger">
+                  <img src="img/chromium.svg" alt="Search" />
+                  <div class="dropdown-headers-burger">
+                    <p>Моделювання E-Commerce</p>
+                    <p>Дослідження</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <a href="#questions">Питання</a>
+            <a href="#contact-us">Контакти</a>
+            <a href="#https://knute.edu.ua/blog/read?n=informaciynikh%20tekhnologiy%20u%20mizhnarodniy%20torgivli&uk" class="free-trial">Дізнатись Більше</a>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </header> 
+
+  <div class="main-page">
+    <section class="face-screen">
+      <div class="blur">
+        <div class="container">
+          <div class="face-info">
+            <h2>Кафедра</h2>
+            <h1>
+              Комп'ютерних Наук та<br/> Інформаційних Систем
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="products">
+      <a name="specializations"></a>
+      <div class="container">
+        <h2>Наші спеціальності</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="img/knute/computer-science.jpg" alt="computer-science">
+            <h3>Комп'ютерні науки</h3>
+            <p>
+              Спеціальність дає можливість отримати ґрунтовні знання з сучасних інформаційних технологій.
+            </p>
+            <p>
+              Основною метою навчання є підготовка фахівців для розробки, впровадження і супроводу інформаційних систем та технологій, отримання знань із сучасних мов програмування, проектування, розроблення та супровід програмного забезпечення, надання послуг системного аналізу.
+            </p>
+            <a href="https://knute.edu.ua/blog/read?n=informaciynikh%20tekhnologiy%20u%20mizhnarodniy%20torgivli&uk">Дізнатись більше</a>
+          </div>
+          <div class="card">
+            <img src="img/knute/info-systems@x2.jpg" alt="api">
+            <h3>Інформаційні системи і технології</h3>
+            <p>
+              Теоретичні та методологічні основи та інструментальні засоби створення і використання інформаційних систем та технологій, а також моделі, методи та засоби оптимізації та прийняття рішень при створенні й використанні інформаційних систем та технологій.
+            </p>
+            <a href="https://knute.edu.ua/blog/read?n=informaciynikh%20tekhnologiy%20u%20mizhnarodniy%20torgivli&uk">Дізнатись більше</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="search">
+      <a name="video"></a>
+      <section class="video">
+        <div class="container">
+          <h2>Дивіться відео про корпус нашої кафедри</h2>
+          <iframe width="624"  src="https://www.youtube.com/embed/IKoeDiJG7nE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+    </div>
+    <section class="products">
+      <a name="researches"></a>
+      <div class="container">
+        <h2>Наші дослідження</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="img/knute/editedHologram.jpg" alt="holorgram">
+            <h3>Інформаційні технології для експлуатації голографічних 3D вітрин</h3>
+            <a href="https://knute.edu.ua/blog/read?n=informaciynikh%20tekhnologiy%20u%20mizhnarodniy%20torgivli&uk">Дізнатись більше</a>
+          </div>
+          <div class="card">
+            <img src="img/knute/Globalizing-eCommerce.png" alt="e-commerce">
+            <h3>Моделювання механізмів функціонування міжнародної електронної торгівлі</h3>
+            <a href="https://knute.edu.ua/blog/read?n=informaciynikh%20tekhnologiy%20u%20mizhnarodniy%20torgivli&uk">Дізнатись більше</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="questions">
+      <a name="questions"></a>
+      <div class="container">
+        <h2>Є питання?</h2>
+        
+        <div class="tabs">
+          
+          <div class="tab">
+            <input type="checkbox" id="chck1" />
+            <label class="tab-label" for="chck1">
+              <div class="plus">
+                <div class="vert"></div>
+                <div class="hor"></div>
+              </div>
+              Ким я стану після навчання?
+            </label>
+            <div class="tab-content">
+              Освіта за спеціальністю 122 «Комп’ютерні науки» надасть можливість успішного працевлаштування програмістом, прикладним чи системним програмістом, розробником програмного забезпечення, web-програмістом, адміністратором баз даних або мереж, системним адміністратором, аналітиком комп’ютерних мереж, проектувальником інформаційних систем, керівником  IT-проектів, інженером-програмістом та ін.
+            </div>
+          </div>
+  
+          <div class="tab">
+            <input type="checkbox" id="chck2" />
+            <label class="tab-label" for="chck2">
+              <div class="plus">
+                <div class="vert"></div>
+                <div class="hor"></div>
+              </div>
+              Що мені дасть навчання на цій кафедрі?
+            </label>
+            <div class="tab-content">
+              Здатність до проектної діяльності в професійній сфері, будувати і застосовувати моделі для опису об’єктів та процесів, правильно й повно відображати результати професійної діяльності в техніч­ній та інших документаціях, проводити аналіз об’єкта проектування та предметної області, розробляти та застосовувати моделі відображення знань, стратегії логічного виведення технологій і інструментальних засобів побудови інформаційних систем, використовувати сучасні технології проектування в розробці алгоритмічного та програмного забезпечення, проектувати, впроваджувати та експлуатувати сучасні ІСТ у різних галузях людської  діяльності, управляти якістю продуктів та сервісів ІСТ, використовувати математичні та комп’ютерні методи та моделі для аналізу та оптимізації людської діяльності, використовувати серверні технології створення веб-додатків, уміння застосовувати методи та інструментальні засоби для їх проектування, розв’язувати проблеми масштабованості, підтримки віддалених компонентів в розподілених системах.
+            </div>
+          </div>
+  
+          <div class="tab">
+            <input type="checkbox" id="chck3" />
+            <label class="tab-label" for="chck3">
+              <div class="plus">
+                <div class="vert"></div>
+                <div class="hor"></div>
+              </div>
+              Які навички буде мати магістр комп'ютерних наук?
+            </label>
+            <div class="tab-content">
+              Магістр комп’ютерних наук здійснює професійну діяльність, спрямовану на розробку, модифікацію, експлуатацію, супровід та адміністрування розподілених інформаційних управляючих систем, проектування прикладного забезпечення на основі інформаційних технологій із застосуванням інструментальних засобів.
+            </div>
+          </div>
+  
+          <div class="tab">
+            <input type="checkbox" id="chck4" checked />
+            <label class="tab-label" for="chck4">
+              <div class="plus">
+                <div class="vert"></div>
+                <div class="hor"></div>
+              </div>
+              Які технології вивчаються у рамках даних спеціалізацій?
+            </label>
+            <div class="tab-content">
+              Python, C#, C++, Java, R, MS Excel, MS Access, Corel VideoStudio, TeXnicCenter,  ARIS, ERwin, Rational Rose, AnyLogic, LaTeX, Netcracker та інші
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <div class="contact-us">
+      <a name="contact-us"></a>
+      <section class="face-screen-line">
+        <div class="container">
+          <div class="header-info">
+            <img src="img/invisible-mail@2x.png" alt="mail-img" />
+            <h2>Зв'яжіться з нами</h2>
+          </div>
+        </div>
+      </section>
+      <section class="demo">
+        <div class="container">
+          <div class="contact-data">
+            <h3>
+              КНТЕУ<br/>
+              вул. Кіото, 19<br/>
+              Україна, м. Київ, 02156
+            </h3>
+            <h3>
+              compdep@knute.edu.ua<br/><br/>
+    
+              <a href="https://knute.edu.ua/">knute.edu.ua</a>
+            </h3>
+          </div>
+    
+          <form action="message" method="POST">
+            <p>Зв'язатись</p>
+            <div class="form-data">
+              <label class='form-input'>
+                <input name="name" placeholder=" " minLength="2" maxLength="18" required />
+                <span class="placeholder">
+                  Ім'я *
+                </span>
+                <span class="form__error">
+                  Це поле має містити від 2 до 18 символів
+                </span>
+              </label>
+    
+              <label class='form-input'>
+                <input name="email" type="email" placeholder=" " required />
+                <span class="placeholder">
+                  Електронна пошта *
+                </span>
+                <span class="form__error">
+                  Це поле повинно містити електронну пошту у форматі example@site.com
+                </span>
+              </label>
+              
+              <label class='form-input'>
+                <textarea name="message" cols="30" rows="5" placeholder=" "></textarea>
+                <span class="placeholder">
+                  Повідомлення
+                </span>
+              </label>
+    
+            </div>
+            <button type="submit">
+              Відправити
+            </button>
+          </form>
+        </div>
+      </section>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2135.600849374906!2d30.636449100432525!3d50.46583740186208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4daa7e50329b1%3A0x737715ace733893e!2z0JrQvtGA0L_Rg9GBINCRIC0g0JHRltCx0ZbQu9C-0YLQtdC60LAsINCa0J3QotCV0KM!5e0!3m2!1sru!2sua!4v1589825615831!5m2!1sru!2sua" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <section class="adress">
+        <div class="container">
+          <div class="contact-data">
+            <h3>
+              КНТЕУ<br/>
+              вул. Кіото, 19<br/>
+              Україна, м. Київ, 02000
+            </h3>
+            <h3>
+              compdep@knute.edu.ua<br/><br/>
+    
+              <a href="https://knute.edu.ua/">knute.edu.ua</a>
+            </h3>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="classification-api">
+      <section class="read">
+        <div class="container">
+          <h3><img src="img/read.svg" alt="read" />Дізнавайтесь більше, читайте <a href="#"> додаткову інформацію про кафедру</a></h3>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-line"></div>
+    <div class="container">
+     <a class="mini-rina-logo" href="https://knute.edu.ua/blog/read?n=informaciynikh%20tekhnologiy%20u%20mizhnarodniy%20torgivli&uk">
+       KNUTE
+     </a>
+
+     <div class="footer-content">
+        <div class="footer-info">
+          <div class="main-info">
+            <p>Україна, 02156, м. Київ, вул. Кіото, 19</p>
+            <p>Довідка університету: <span>(044) 513-33-48</span></p>
+            <p>e-mail: <span>knute@knute.edu.ua</span></p>
+          </div>
+        </div>
+
+        <div class="footer-info">
+          <div class="main-info">
+            <p>Приймальна комісія: <span>(044) 531-48-88</span></p>
+            <p>e-mail: <span>pk@knute.edu.ua</span></p>
+            <p>Telegram-канал Приймальної комісії: <a href="https://t.me/knteu_vstup">https://t.me/knteu_vstup</a></p>
+          </div>
+        </div>
+
+        <div class="footer-info">
+          <div class="main-info">
+            <p>
+              КНТЕУ
+              вул. Кіото, 19
+              Україна, м. Київ, 02156
+            </p>
+            <p><span>compdep@knute.edu.ua</span></p>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </footer>
+</body>
+</html>
+

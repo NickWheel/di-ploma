@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59" height="47" viewBox="0 0 59 47">
+    <g fill="none" fill-rule="evenodd" stroke="#0F1C76" stroke-width="2">
+        <path fill="#D1E6FF" stroke-linejoin="round" d="M16 0h17.018l4.255 4.583H50.8c2.32 0 4.2 1.88 4.2 4.2V38.8c0 2.32-1.88 4.2-4.2 4.2H16h0V0z" transform="translate(2 1)"/>
+        <path fill="#FFF" stroke-linejoin="round" d="M17.378 0H4.2C2.764 0 1.464.582.523 1.523-.418 2.464-1 3.764-1 5.2v34.6c0 1.436.582 2.736 1.523 3.677C1.464 44.418 2.764 45 4.2 45h46.6c1.436 0 2.736-.582 3.677-1.523C55.418 42.536 56 41.236 56 39.8V10.055c0-1.436-.582-2.736-1.523-3.677-.941-.941-2.241-1.523-3.677-1.523H21.609L17.379 0z" transform="translate(2 1)"/>
+        <g>
+            <path d="M9.55 18.5V30" transform="translate(2 1) translate(3.8 11.5)"/>
+            <path fill="#D1E6FF" stroke-linejoin="round" d="M8.4 0H30.1V5.6H8.4z" transform="translate(2 1) translate(3.8 11.5)"/>
+            <path d="M2.8 0v4.9M5.6 2.45H0" transform="translate(2 1) translate(3.8 11.5)"/>
+            <path fill="#D1E6FF" stroke-linejoin="round" d="M8.4 9.45H30.1V15.049999999999999H8.4z" transform="translate(2 1) translate(3.8 11.5)"/>
+            <path d="M5.6 11.9H0" transform="translate(2 1) translate(3.8 11.5)"/>
+            <path fill="#D1E6FF" stroke-linejoin="round" d="M14.2 18.5H21.2V22.5H14.2zM24.2 18.5H31.2V22.5H24.2zM34.2 18.5H41.2V22.5H34.2zM14.2 25.5H21.2V29.5H14.2zM24.2 25.5H31.2V29.5H24.2zM34.2 25.5H41.2V29.5H34.2z" transform="translate(2 1) translate(3.8 11.5)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89" height="30" viewBox="0 0 89 30">
+    <g fill="#005BEA" fill-rule="evenodd">
+        <g>
+            <path d="M0 15.475L3.484 15.475 3.484 21.077 0 21.077z" opacity=".8" transform="translate(0 -1.875) translate(0 6.044)"/>
+            <path d="M7.726 0c4.266 0 7.725 3.473 7.725 7.758 0 2.036-.78 3.888-2.058 5.272l4.944 7.926h-4.551l-3.63-5.832c-.764.255-1.581.392-2.43.392C3.459 15.516 0 12.043 0 7.758S3.459 0 7.726 0zm.092 2.804c-2.703 0-4.894 2.2-4.894 4.915 0 2.714 2.191 4.915 4.894 4.915 2.703 0 4.894-2.2 4.894-4.915s-2.19-4.915-4.894-4.915z" transform="translate(0 -1.875) translate(0 6.044)"/>
+            <path d="M7.918 0v.002L7.726 0C3.54 0 .133 3.341.004 7.512L0 7.696H0V0h7.918z" opacity=".6" transform="translate(0 -1.875) translate(0 6.044)"/>
+            <path d="M7.918 15.516v-.002l-.192.002c-4.185 0-7.593-3.34-7.722-7.512L0 7.82H0v7.696h7.918z" opacity=".3" transform="translate(0 -1.875) translate(0 6.044)"/>
+        </g>
+        <text font-family="Manrope-ExtraBold, Manrope" font-size="21.082" font-weight="600" letter-spacing="-.703" transform="translate(0 -1.875)">
+            <tspan x="16.883" y="22">inalogy</tspan>
+        </text>
+    </g>
+</svg>

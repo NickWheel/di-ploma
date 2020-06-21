@@ -1,0 +1,85 @@
+<div class="career">
+  <section class="face-screen-line">
+    <div class="container">
+      <div class="header-info">
+        <img src="img/invisible-case@2x.png" alt="case-img" />
+        <h2>Career</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="demo">
+    <div class="container">
+      <div class="contact-data">
+        <p>
+          Rinalogy is seeking motivated individuals interested in working in a small team environment to participate in developing and servicing innovative technologies. Candidates are expected to be self-driven and capable of acquiring the necessary domain expertise in various areas. Quantitative skills are a strong plus. 
+          <br />
+          <br />
+          Knowledge of machine learning is a strong plus.
+          We offer excellent opportunities for professional growth and technical creativity in a casual work atmosphere.
+          <br />
+          <br />
+          Interested candidates should send a resume using the form below.
+        </p>
+      </div>
+      <div class="career-block">
+        
+        <div class="vacation">
+          <p>Software Engineer - Python</p>
+          <p>Cincinnati, OH</p>
+        </div>
+
+        <div class="vacation">
+          <p>Software Engineer - .NET</p>
+          <p>Cincinnati, OH</p>
+        </div>
+
+        <div class="vacation">
+          <p>Sales & Business Development Representative</p>
+          <p>Cincinnati, OH</p>
+        </div>
+
+        <form action="workerRequest" method="POST">
+          <p>Work With Us</p>
+          <div class="form-data">
+            <label class='form-input'>
+              <input placeholder=" " minLength="2" maxLength="18" required />
+              <span class="placeholder">
+                Name *
+              </span>
+              <span class="form__error">
+                This field must be between 2 and 18 characters
+              </span>
+            </label>
+
+            <label class='form-input'>
+              <input type="email" placeholder=" " required />
+              <span class="placeholder">
+                Email *
+              </span>
+              <span class="form__error">
+                This field must contain E-Mail in the format example@site.com
+              </span>
+            </label>
+            
+            <label class="form-input attach">
+              <input type="file" class="upload" onchange="setFileName(this.value)" />
+              <div class="clip-container">
+                <img src="img/skrepka.svg" alt="clip" />
+              </div>
+              <p class="preview">Attach your CV</p>
+              <!-- <p class="preview"></p> -->
+            </label>
+  
+  
+            <!-- <textarea class="form-input" name="" cols="30" rows="5" placeholder="Message"></textarea> -->
+          </div>
+          <button type="submit">
+            Send CV
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+</div>
